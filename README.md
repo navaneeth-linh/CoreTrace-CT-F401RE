@@ -141,39 +141,45 @@ cosmetic library mismatch only.
 
 ---
 
-## Bill of Materials (BOM)
+## Bill of Materials (BOM) with Estimated Cost
 
-| Component | Value | Package | Qty |
-|---|---|---|---|
-| STM32F401RET6 | MCU | LQFP-64 | 1 |
-| AMS1117-3.3 | LDO Regulator | SOT-223 | 1 |
-| Crystal | 8MHz | SMD 3225 | 1 |
-| Capacitor | 22µF | 0805 | 2 |
-| Capacitor | 2.2µF | 0805 | 1 |
-| Capacitor | 1µF | 0805 | 2 |
-| Capacitor | 100nF | 0402 | 6 |
-| Capacitor | 10nF | 0402 | 2 |
-| Capacitor | 20pF | 0402 | 2 |
-| Resistor | 10kΩ | 0402 | 2 |
-| Resistor | 4.7kΩ | 0402 | 2 |
-| Resistor | 1kΩ | 0402 | 1 |
-| Resistor | 330Ω | 0402 | 3 |
-| Resistor | 22Ω | 0402 | 2 |
-| Resistor | 1.5kΩ | 0402 | 1 |
-| Ferrite Bead | 120R | 0805 | 1 |
-| LED Red | PWR | 0805 | 1 |
-| LED Green | USR | 0805 | 1 |
-| LED Blue | TX | 0805 | 1 |
-| LED Yellow | RX | 0805 | 1 |
-| Tactile Switch | Reset | SMD | 1 |
-| Tactile Switch | User | SMD | 1 |
-| SPDT Switch | BOOT0 | SMD | 1 |
-| USB Micro-B | Connector | SMD | 1 |
-| Pin Header | 2.54mm 1×10 | THT | 2 |
-| Pin Header | 2.54mm 1×06 | THT | 2 |
-| Pin Header | 2.54mm 1×04 | THT | 2 |
+| Ref | Component | Value | Package | Qty | Unit Price (₹) | Total (₹) |
+|---|---|---|---|---|---|---|
+| U1 | STM32F401RET6 | MCU | LQFP-64 | 1 | ₹450 | ₹450 |
+| U2 | AMS1117-3.3 | LDO Regulator | SOT-223 | 1 | ₹15 | ₹15 |
+| Y1 | Crystal | 8MHz | SMD 3225 | 1 | ₹25 | ₹25 |
+| C1, C2 | Capacitor | 22µF | 0805 | 2 | ₹5 | ₹10 |
+| C13 | Capacitor | 2.2µF | 0805 | 1 | ₹4 | ₹4 |
+| C14, C15 | Capacitor | 1µF | 0805 | 2 | ₹3 | ₹6 |
+| C6,C7,C8,C9,C10,C11 | Capacitor | 100nF | 0402 | 6 | ₹2 | ₹12 |
+| C3, C12 | Capacitor | 10nF | 0402 | 2 | ₹2 | ₹4 |
+| C4, C5 | Capacitor | 20pF | 0402 | 2 | ₹2 | ₹4 |
+| R2, R6 | Resistor | 10kΩ | 0402 | 2 | ₹1 | ₹2 |
+| R3, R4 | Resistor | 4.7kΩ | 0402 | 2 | ₹1 | ₹2 |
+| R1 | Resistor | 1kΩ | 0402 | 1 | ₹1 | ₹1 |
+| R5, R7, R8 | Resistor | 330Ω | 0402 | 3 | ₹1 | ₹3 |
+| R9, R10 | Resistor | 22Ω | 0402 | 2 | ₹1 | ₹2 |
+| R_USB | Resistor | 1.5kΩ | 0402 | 1 | ₹1 | ₹1 |
+| FB1 | Ferrite Bead | 120R | 0805 | 1 | ₹8 | ₹8 |
+| D1 | LED | Red | 0805 | 1 | ₹5 | ₹5 |
+| D2 | LED | Green | 0805 | 1 | ₹5 | ₹5 |
+| D3 | LED | Blue | 0805 | 1 | ₹5 | ₹5 |
+| D4 | LED | Yellow | 0805 | 1 | ₹5 | ₹5 |
+| SW2 | Tactile Switch | Reset | SMD 6×6mm | 1 | ₹8 | ₹8 |
+| SW3 | Tactile Switch | User | SMD 6×6mm | 1 | ₹8 | ₹8 |
+| SW1 | SPDT Switch | BOOT0 | SMD | 1 | ₹12 | ₹12 |
+| J1 | USB Micro-B | Connector | SMD | 1 | ₹20 | ₹20 |
+| CN1, CN2 | Pin Header | 2.54mm 1×10 | THT | 2 | ₹8 | ₹16 |
+| J5 | Pin Header | 2.54mm 1×06 | THT | 1 | ₹5 | ₹5 |
+| J2, J3 | Pin Header | 2.54mm 1×04 | THT | 2 | ₹4 | ₹8 |
+| J4 | Pin Header | 2.54mm 1×06 | THT | 1 | ₹5 | ₹5 |
+| — | PCB Manufacturing | 2-layer 100×100mm | — | 1 | ₹150 | ₹150 |
+| **Total** | | | | | | **₹811** |
 
----
+> **Note:** Prices are approximate Indian market rates
+> sourced from Robu.in, Evelta, and ElectronicsComp.
+> Actual prices may vary by supplier and quantity.
+> PCB cost based on single unit prototype pricing.
 
 ## Tools Used
 - KiCad 10.0.5
