@@ -121,6 +121,9 @@ cosmetic library mismatch only.
 
 ## Screenshots
 
+### Block Diagram 
+![Block Diagram](images/block_diagram.png)
+
 ### Schematic
 ![Schematic](images/schematic.png)
 
